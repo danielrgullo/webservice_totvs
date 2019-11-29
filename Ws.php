@@ -5,8 +5,7 @@ namespace CCS\WSTotvs;
 class Ws {
 
     private $client = NULL;
-    private $wsdl = 'http://10.0.10.7:8080/wsexecbo/WebServiceExecBO?wsdl';
-    // private $wsdl = 'http://10.0.10.8:8180/wsexecbo/WebServiceExecBO?wsdl';
+    private $wsdl = 'http://<SERVER-ADDRESS>/wsexecbo/WebServiceExecBO?wsdl';
     private $token = '';
     private $company_id = 1;
     private $last_error = '';
